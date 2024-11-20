@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Online Bookstore</h1>
+        <nav>
+            <a href="#books">Books</a>
+            <a href="#cart">Cart</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="books">
+            <h2>Available Books</h2>
+            <div id="book-list" class="book-list">
+                
+            </div>
+        </section>
+
+        <section id="cart">
+          
+
+            <h2>Your Cart</h2>
+            <button onclick="saveOrdersToExcel()">Save Orders to Excel</button>
+
+            <div id="cart-items">
+              
+            
+            </div>
+            <button onclick="checkout()">Proceed to Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Online Bookstore</p>
+        
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DCE4C9;
+}
+
+header, footer {
+    background: #F5F5DC;
+    color: #B6A28E;
+    text-align: center;
+    padding: 1em;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+h1, h2 {
+    margin-bottom: 1em;
+}
+
+#books, #cart {
+    margin: 20px;
+}
+
+.book-list, #cart-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.book img {
+    width: 100px;
+    height: 150px;
+}
+
+.book button {
+    background: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.book button:hover {
+    background: #0056b3;
+}
+
+#cart-items .cart-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+#cart-items .cart-item button {
+    background: #FF4136;
+}
